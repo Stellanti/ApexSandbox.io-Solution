@@ -1,4 +1,4 @@
 public Integer diff(Integer a, Integer b) {
-    if(a > b) return b-a;
+    if(a < b) return b-a;
     return a-b;
 }
